@@ -1,0 +1,369 @@
+.contenedor_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background: #FFFFFF;
+}
+
+.header_img{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 10%;
+    box-sizing: content-box;
+    width: 85%;
+
+}
+
+#header_imag-config{
+    width: 50px;
+    height: 50px;
+}
+
+#header_titulo-config{
+   position: relative;
+   left: 1%;
+}
+
+#header_buscar-campo{
+  position: relative;
+  left: 100px;
+  width: 300px;
+  height: 35px;
+  border-radius: 20px;
+}
+
+#header_lupa-img{
+    position: absolute;
+    left: 38.5%;
+    width: 37px;
+    height: 37px;
+}
+
+
+#header_login{
+    position: absolute;
+    left: 85%;
+    width: 182px;
+    height:  51px;
+    padding: 16px;
+    border: 1px;
+    background: #2A7AE4;
+}
+
+.iniciarsesion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+.iniciarsesion_contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 440px;
+    height: 340px;
+    margin-bottom: 5%;
+    padding: 5%;
+
+}
+
+#iniciarsesion_titulo{
+    font-size: 25px;
+    margin: 50px;
+}
+
+
+#iniciarsesion_email{
+    width: 422px;   
+    height: 63px;
+    top: 347px;
+    left: 508px;
+    border-radius: 4px;
+    margin-bottom: 5%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#iniciarsesion_contraseña{
+    width: 423px;
+    height: 63px;
+    top: 347px;
+    left: 508px;
+    gap: 8px;
+    border-radius: 4px;
+    margin-bottom: 5%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#iniciarsesion_entrar{
+    width: 423px;
+    height: 62px;
+    top: 435px;
+    left: 508px;
+    padding: 12px 16px 12px 16px;
+    background: #2A7AE4;
+    border: none;
+}
+
+.sobrenosotros{
+    display: flex;
+}
+
+.sobre_form_contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 50%;
+}
+
+
+
+
+.sobrenos_img-titulo-box{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+}
+
+
+#sobre_img{
+    width: 50px;
+    height: 50px;
+}
+
+.sobrenos_list{
+    position: relative;
+    left: 30%;
+    bottom: 9%;
+    list-style: none;
+    font-size: 20px;
+}
+
+.sobre_nosotros-list{
+   box-sizing: content-box;
+   margin: 6%;
+}
+
+.sobre_nosotros-link{
+    text-decoration: none;
+}
+
+
+
+.formulario{
+    position: relative;
+    display: flex;
+}
+
+.formulario_contenedor{
+    width: 49%;
+}
+
+.formulario_elements{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    padding-bottom: 5%;
+
+}
+
+#formulario_titulo{
+    position: relative;
+    left: 3%;
+}
+#input_nombre{
+    width: 80%;
+    margin: 1%;
+    height: 40px;
+    font-size: 17px;
+}
+
+#input_mensaje{
+   width: 80.2%;
+   margin: 1%;
+   font-size: 17px;
+}
+
+#input_enviar{
+  width: 20%;
+  margin: 1%;
+  height: 40px;
+  background: #2A7AE4;
+  border: none;
+}
+
+
+footer{
+    text-align: center;
+}
+
+@media screen and (min-width: 360px) and (max-width: 814px) {
+    .contenedor_header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-items: center;
+        position: relative;
+        width: 100%;
+    
+    }
+    
+    .header_img{
+       position: absolute;
+       box-sizing: border-box;
+       width: 98%;
+       left: 1%;
+    }
+    
+    #header_imag-config{
+        position: relative;
+        width: 8%;
+        height: 8%;
+    }
+    
+    #header_titulo-config{
+        font-size: 15px;
+    }
+    
+    #header_buscar-campo{
+        display: none;
+      
+    }
+    
+    #header_lupa-img{
+      width: 5%;
+      height: 50%;
+      left: 90%;
+
+        
+    }
+    
+    #header_login{
+      left: 47%;  
+      width: 30%;
+      height: 100%;
+       
+    }
+
+    .iniciarsesion_contenedor{
+        width: 100%;
+    }
+
+    #iniciarsesion_email{
+        width: 80%;
+    }
+
+    #iniciarsesion_contraseña{
+        width: 80%;
+    }
+
+    #iniciarsesion_entrar{
+        width: 40%;
+    }
+    
+
+    .sobrenosotros{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        position: relative;
+        text-align: center;
+    }
+
+
+    .sobre_form_contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        
+      
+    }
+
+     .sobrenos_img-titulo-box{
+        position: relative;
+        left: 5%;
+        text-align: center;
+        margin-top: 5%;
+        gap: 3%;
+     }
+
+     #sobre_img{
+        width: 55%;
+        height: 55%;
+     }
+
+     #sobre_titulo{
+        font-size: 0.9em;
+     }
+
+
+    .sobrenos_list{
+
+        position: relative;
+        left: 4%;
+        font-size: 0.8em;
+    }
+
+    .sobre_nosotros-list{
+        text-align: center;
+        margin: 1;
+        position: relative;
+        right: 15%;
+        margin-right: 5%;
+    }
+
+    .formulario_contenedor{
+        width: 80%;
+        position: relative;
+       
+    }
+
+    .formulario_elements{
+        display: flex;
+        position: relative;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #input_enviar{
+        margin: 5%;
+        font-size: 0.2em;
+    }
+
+    footer{
+        font-size: 15%;
+    }
+
+
+
+
+   
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1440px){
+    #header_lupa-img{
+     position: absolute;
+     left: 55%;
+ 
+    }
+ }
+
+
+
+
+
+

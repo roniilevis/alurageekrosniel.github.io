@@ -1,0 +1,44 @@
+.agregarproducto{
+   width: 100%; 
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   padding-bottom: 15%;
+}
+
+#agregarproductos_titulo{
+    font-size: 2.5em;
+}
+
+.agregarproducto_contenedor{
+  margin-top: 5%;
+  width: 50%;
+  height: 98%;
+  display: flex;
+  flex-direction: column;
+}
+
+.agregarproductos_formulario-input{
+    margin: 3%;
+    padding: 3%;
+    font-size: small;
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#agregarproducto_boton{
+    border: none;
+    background: #2A7AE4;
+}
+
+.agregarproductos_formulario-input:hover{
+      transform: scale(110%);
+}
+
+
+#agregar_textarea{
+    padding-bottom: 10%;
+}
+

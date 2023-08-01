@@ -1,0 +1,540 @@
+.contenedor_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background: #FFFFFF;
+}
+
+.header_img{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 10%;
+    box-sizing: content-box;
+    width: 85%;
+
+}
+
+#header_imag-config{
+    width: 50px;
+    height: 50px;
+}
+
+#header_titulo-config{
+   position: relative;
+   left: 1%;
+}
+
+#header_buscar-campo{
+  position: relative;
+  left: 100px;
+  width: 300px;
+  height: 35px;
+  border-radius: 20px;
+}
+
+#header_lupa-img{
+    position: absolute;
+    left: 38.5%;
+    width: 37px;
+    height: 37px;
+}
+
+    
+
+
+#header_login{
+    position: absolute;
+    left: 85%;
+    width: 182px;
+    height:  51px;
+    padding: 16px;
+    border: 1px;
+    background: #2A7AE4;
+}
+
+#header_login:hover{
+    transition: 2s;
+    transform: scale(110%);
+  }
+
+.productos_interaccion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1659700785595-cf5907e6146f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80);
+    height: 500px;
+}
+
+.productos_contenedor{
+    position: absolute;
+    width: 50%;
+    text-align: center;
+}
+
+#productos_titulo{
+    color: rgb(246, 247, 242); 
+    font-size: 50px; 
+}
+
+#productos_subtitulo{
+    color: rgb(247, 243, 242); 
+    font-size: 30px; 
+}
+
+
+#productos_boton{
+    width: 50%;
+    font-size: 30px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 25%;
+    margin-bottom: 5%;
+    background: transparent;
+    border-color: rgb(182, 182, 255);
+    color: whitesmoke;
+}
+
+.productos_items{
+    display: block;
+}
+
+.productos_items-contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    position: relative;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-azul-cuadrados-pequenos_1095-50.jpg?size=626&ext=jpg&ga=GA1.1.859644891.1684568980&semt=ais);
+    padding-bottom: 5%;
+}
+
+
+
+.productos_xboxseccion{
+    display: flex;
+    margin: 1%;
+    width: 100%; 
+}
+
+.productos_ps5seccion{
+    display: flex;
+    margin: 1%;
+    width: 100%;
+}
+
+.productos_nintendoseccion{
+    display: flex;
+    margin: 1%;
+    width: 100%;
+}
+
+
+
+.productos_otramercanciaseccion{
+    display: flex;
+    margin: 1%;
+    width: 100%;
+}
+
+.productos_item-seccion{
+    position: relative;
+    text-align: center;
+}
+
+.producto_imagen-config{
+    width: 176px;
+    height: 174px;
+    margin-top: 6%;
+}
+
+.producto_imagen-config:hover{
+    transform: scale(80%);
+    transition: 2s;
+}
+
+
+.producto_lista{
+    margin: 1%;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+    border: 20%;
+    background: transparent;
+}
+
+
+.producto_editar{
+    position: absolute;
+    left: 81%;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 20%;
+}
+
+.producto_editar:hover{
+    transform: scale(115%);
+}
+
+
+.sobrenosotros{
+    display: flex;
+}
+
+.sobre_form_contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 50%;
+}
+
+
+
+
+.sobrenos_img-titulo-box{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+}
+
+#sobre_img{
+    width: 50px;
+    height: 50px;
+}
+
+.sobrenos_list{
+    position: relative;
+    left: 30%;
+    bottom: 9%;
+    list-style: none;
+    font-size: 20px;
+}
+
+.sobre_nosotros-list{
+   box-sizing: content-box;
+   margin: 6%;
+}
+
+.sobre_nosotros-link{
+    text-decoration: none;
+}
+
+
+
+.formulario{
+    position: relative;
+    display: flex;
+}
+
+.formulario_contenedor{
+    width: 49%;
+}
+
+.formulario_elements{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    padding-bottom: 5%;
+
+}
+
+#formulario_titulo{
+    position: relative;
+    left: 3%;
+}
+#input_nombre{
+    width: 80%;
+    margin: 1%;
+    height: 40px;
+    font-size: 17px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#input_mensaje{
+   width: 80.2%;
+   margin: 1%;
+   font-size: 17px;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+}
+
+#input_enviar{
+  width: 20%;
+  margin: 1%;
+  height: 40px;
+  background: #2A7AE4;
+  border: none;
+}
+
+
+footer{
+    text-align: center;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 360px) and (max-width: 814px) {
+    .contenedor_header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-items: center;
+        position: relative;
+        width: 100%;
+    
+    }
+    
+    .header_img{
+       position: absolute;
+       box-sizing: border-box;
+       width: 98%;
+       left: 1%;
+    }
+    
+    #header_imag-config{
+        position: relative;
+        width: 8%;
+        height: 8%;
+    }
+    
+    #header_titulo-config{
+        font-size: 15px;
+    }
+    
+    #header_buscar-campo{
+        display: none;
+      
+    }
+    
+    #header_lupa-img{
+      width: 5%;
+      height: 50%;
+      left: 90%;
+
+        
+    }
+    
+    #header_login{
+      left: 47%;  
+      width: 30%;
+      height: 100%;
+       
+    }
+
+    .productos_interaccion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+        height: 40%;
+        border: 1px solid;
+        background-image: url(https://images.unsplash.com/photo-1659700785595-cf5907e6146f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+        
+    .productos_contenedor{
+       width: 100%;
+       height: 60%;
+       position: relative;
+       top: 1%;
+    }
+    
+    #productos_titulo{
+        font-size: 15px;
+        color: rgb(221, 248, 170);
+    }
+    
+    #productos_subtitulo{
+        font-size: 15px;
+        color: rgb(221, 248, 170);
+    }
+    
+    
+    #productos_boton{
+        position: relative;
+        width: 50%;
+        height: 50%;
+        top: 1%;
+        font-size: 15px;
+    }
+
+    .productos_items{
+        display: flex;
+        flex-direction: column;
+        border: none;
+        background-image: url(https://img.freepik.com/vector-premium/juego-garabatos-dibujados-mano-videojuegos-elemento-gadget-joystick-consola-jugador-video_253081-1282.jpg?w=2000);
+    }
+
+    .productos_items-contenedor{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border: none;
+    }
+
+
+    .productos_xboxseccion{
+       display: flex;
+       flex-direction: column;
+       width: 97%;
+       border: none;
+    }
+
+    .productos_ps5seccion{
+        display: flex;
+        flex-direction: column;
+        width: 97%;
+        border: none;
+    }
+
+    .productos_nintendoseccion{
+        display: flex;
+        flex-direction: column;
+        width: 97%;
+        border: none;
+    }
+
+
+
+   .productos_otramercanciaseccion{
+       display: flex;
+       flex-direction: column;
+       width: 97%;
+       border: none;
+    }
+
+
+    .producto_imagen-config{
+        width: 40%;
+        border-radius: 15%;
+    }
+
+
+
+
+    .producto_lista{
+        width: 99%;
+        border: none;
+        border-bottom: 1px solid;
+        padding-bottom: 5%;
+        font-size: 1em;
+
+    }
+  
+
+
+   .producto_editar{
+     display: none;
+    }
+
+    
+
+    .sobrenosotros{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        position: relative;
+        text-align: center;
+    }
+
+
+    .sobre_form_contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        
+      
+    }
+
+     .sobrenos_img-titulo-box{
+        position: relative;
+        left: 5%;
+        text-align: center;
+        margin-top: 5%;
+        gap: 3%;
+     }
+
+     #sobre_img{
+        width: 55%;
+        height: 55%;
+     }
+
+     #sobre_titulo{
+        font-size: 0.9em;
+     }
+
+
+    .sobrenos_list{
+
+        position: relative;
+        left: 4%;
+        font-size: 0.8em;
+    }
+
+    .sobre_nosotros-list{
+        text-align: center;
+        margin: 1;
+        position: relative;
+        right: 15%;
+        margin-right: 5%;
+    }
+
+    .formulario_contenedor{
+        width: 80%;
+        position: relative;
+       
+    }
+
+    .formulario_elements{
+        display: flex;
+        position: relative;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #input_enviar{
+        margin: 5%;
+        font-size: 0.2em;
+    }
+
+    footer{
+        font-size: 15%;
+    }
+
+
+
+
+   
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1440px){
+    #header_lupa-img{
+     position: absolute;
+     left: 55%;
+ 
+    }
+ }
